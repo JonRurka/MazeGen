@@ -1,0 +1,10 @@
+name: MazeGen
+main: com.nug700.MazeGen.MazeGen
+version: 1
+
+commands:
+  MazeGen:
+    description: Create a random maze.
+    usage: /MazeGen <length> <width> <height> [smooth|cellsize|seed|walltype|floortype=Value]
+    permission: MazeGen.generate
+    permission-message: You don't have MazeGen.generate.
